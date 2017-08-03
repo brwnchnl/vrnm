@@ -1,4 +1,8 @@
 hugo
+
+# Hugo default output directory
+/public
+
 docs/public*
 /.idea
 hugo.exe
