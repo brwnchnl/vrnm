@@ -49,7 +49,7 @@ googleAnalytics = "UA-103625948-1"
 
     [[params.header.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/vrnearme"
 
     [[params.header.social]]
       icon = "fa-facebook"
@@ -325,15 +325,11 @@ She worked at Pied Piper for years until they went belly up."""
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/vrnearme"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
+  #  [[params.footer.social]]
+  #    icon = "fa-facebook"
+  #    link = "#"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
