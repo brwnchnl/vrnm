@@ -303,10 +303,12 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 40px;
     /** font-style: italic; */
-    line-height: 22px;
+    line-height: 40px;
     text-decoration: underline #fed136;
+    background-color: #fed136;
+    display:inline-block;
 }
 
 header .intro-text .intro-heading {
@@ -327,10 +329,12 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
-        font-size: 40px;
+        font-size: 60px;
     /** font-style: italic; */
-        line-height: 40px;
+        line-height: 60px;
         text-decoration: underline #fed136;
+        background-color: #fed136;
+        display:inline-block;.
     }
 
     header .intro-text .intro-heading {
