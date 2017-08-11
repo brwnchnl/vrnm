@@ -5,7 +5,7 @@ title = "VR Near Me"
 theme = ""
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-103625948-1"
 
 [params]
   # You can use Markdown syntax for urls [text](//url.to/source) or
@@ -49,7 +49,7 @@ googleAnalytics = ""
 
     [[params.header.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/vrnearme"
 
     [[params.header.social]]
       icon = "fa-facebook"
@@ -99,9 +99,9 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "Become The Experience!"
+    title = "BECOME THE EXPERIENCE"
     subtitle = ""
-    buttonText = "Tell me more"
+#    buttonText = "Tell me more"
 
 
   # Services section
@@ -150,8 +150,8 @@ googleAnalytics = ""
     # About section
   [params.about]
     enable = true
-    title = "The Future of Entertainment"
-    subtitle = "We believe that VR will soon be the Most compelling form of entertainment.<br>Our goal is to connect Enthusiasts with the most relevant VR Content near them."
+    title = "We believe that Virtual Reality is the <span>Future of Entertainment</span> and we will help you find the most amazing Virtual Reality <span>experiences near you</span>"
+    subtitle = ""
     endpoint = "Be part<br>of our<br>story!"
 
     # The events will be listed from the top to the bottom.
@@ -264,8 +264,8 @@ She worked at Pied Piper for years until they went belly up."""
   # Contact section
   [params.contact]
     enable = true
-    title = "Ready For An Experience Like No Other?"
-    subtitle  = "Sign up here to stay up-to-date on our progress and get early access to our community! <br>Your privacy will be respected and we are morally opposed to spam!"
+    title = "READY FOR AN EXPERIENCE LIKE NO OTHER?"
+    subtitle  = "Sign up here to stay up-to-date on our progress and get early access to our community!<strike><br>Your privacy will be respected and we are morally opposed to spam!</strike>"
     buttonText = "Sign Up"
 
     # Since this template is static, the contact form uses www.formspree.io as a
@@ -286,19 +286,19 @@ She worked at Pied Piper for years until they went belly up."""
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "vrnearme@gmail.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    #thanks = "Thank you for your interest we'll be in contact as soon as possible."
+    #error = "Message could not be sent. Please contact us at vrnearme@gmail.com instead."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
+      text = "Full Name"
       warning = "Please enter your name."
 
     [params.contact.form.email]
-      text = "Your Email *"
+      text = "Email"
       warning = "Please enter your email address."
 
 #    [params.contact.form.phone]
@@ -321,19 +321,15 @@ She worked at Pied Piper for years until they went belly up."""
   # Footer section
   [params.footer]
     enable = true
-    copyright = "Published under the Apache License 2.0."
+    copyright = "VR Near Me &copy; 2017"
 
     [[params.footer.social]]
       icon = "fa-twitter"
-      link = "#"
+      link = "https://twitter.com/vrnearme"
 
-    [[params.footer.social]]
-      icon = "fa-facebook"
-      link = "#"
-
-    [[params.footer.social]]
-      icon = "fa-linkedin"
-      link = "#"
+  #  [[params.footer.social]]
+  #    icon = "fa-facebook"
+  #    link = "#"
 
     [[params.footer.quicklinks]]
       text = "Privacy Policy"
