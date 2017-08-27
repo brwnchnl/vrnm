@@ -265,7 +265,7 @@ She worked at Pied Piper for years until they went belly up."""
   [params.contact]
     enable = true
     title = "READY FOR AN EXPERIENCE LIKE NO OTHER?"
-    subtitle  = "Sign up here to stay up-to-date on our progress and get early access to our community!<strike><br>Your privacy will be respected and we are morally opposed to spam!</strike>"
+    subtitle  = "Sign up here to stay up-to-date on our progress and get early access to our community!"
     buttonText = "Sign Up"
 
     # Since this template is static, the contact form uses www.formspree.io as a
